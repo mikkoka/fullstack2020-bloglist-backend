@@ -1,0 +1,14 @@
+POST http://localhost:3003/api/blogs HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhbWlTdXVyaSIsImlkIjoiNWZmOGEzOTU1ODdmYzUxMDJlNDBmYWEyIiwiaWF0IjoxNjEwMTMzNDA3fQ.jjgNNrt0NRIwhxeDS3mSqZxPr5VrQ9i1TkxRriBmn3U
+
+{
+    "title": "tralalaa{{$randomInt 100 9000}}",
+    "author": "Ilmari{{$randomInt 100 9000}}",
+    "url": "kakka.com",
+    "likes": 12,
+    "user": "5ff765a672fb3234b48a2462"
+}
+
+
+// Käyttö: cmnd + option + R
